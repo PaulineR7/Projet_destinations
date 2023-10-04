@@ -31,19 +31,21 @@ li {
 }
 
 main {
-    position: relative;
-    top: 80px;
-    left: 300px;
     display: flex;
+    justify-content: center;
 }
+
 
 .ville {
     border: 1px solid black;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
     height: 600px;
     width: 400px;
-    position: relative;
-    margin: 20px;
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
 }
 
 div>#img-paris {
@@ -69,10 +71,11 @@ div>#btn-paris {
     background-color: rgba(101, 18, 101, 0.874);
     color: white;
     text-decoration: none;
-    position: relative;
-    top :120px;
-    left: 140px;
     padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 div>#btn-tokyo {
@@ -80,10 +83,11 @@ div>#btn-tokyo {
     background-color: rgb(255, 85, 0);
     color: white;
     text-decoration: none;
-    position: relative;
-    top :120px;
-    left: 140px;
     padding: 10px;
+    width: 30%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 div>#btn-ny {
@@ -92,22 +96,16 @@ div>#btn-ny {
     color: white;
     text-decoration: none;
     padding: 10px;
-    position: relative;
-    top :120px;
-    left: 125px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-div>p {
-    position: relative;
-    top:80px;
-    padding: 20px;
+.ville>h1,.ville>p {
+    padding: 15px;
 }
 
-div>h1 {
-    position:relative;
-    top:60px;
-    left:20px;
-}
 
 
 
